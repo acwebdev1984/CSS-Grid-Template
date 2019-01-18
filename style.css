@@ -1,0 +1,126 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+
+    margin: auto 0;
+   
+}
+
+.main-nav{
+    background-color: none;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-bottom: 5px;
+
+
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px){
+
+    .main-nav{
+        font-size: .5em;
+        color: black;
+    }
+}
+
+li{
+    padding:20px;
+    color: black;
+
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.landing-page{
+
+    height: 100vh;
+    
+}
+
+
+.covertitle{
+    
+    display: flex;
+    justify-content: center;
+    line-height: 50vh;
+  
+
+}
+
+.section1{
+border:1px solid black;
+display:grid;
+grid-template-columns:repeat(2, 1fr); 
+grid-template-rows: repeat(3, 1fr); 
+
+}
+
+ .section2{
+border:1px solid black;
+display:grid;
+grid-template-columns:repeat(2, 1fr); 
+grid-template-rows: repeat(3, 1fr); 
+    
+}
+.section3{
+
+border:1px solid black;
+
+display:grid;
+grid-gap: 20px;
+grid-template-columns:repeat(3, 1fr); 
+grid-template-rows: repeat(1, 1fr); 
+    
+}
+.section4{
+border:1px solid black;
+display:grid;
+grid-template-columns: repeat(3, 1fr); 
+grid-template-rows: repeat(2, 1fr); 
+    
+}
+.section5{
+border:1px solid black;
+display:grid;
+grid-template-columns:repeat(5, 1fr);; 
+grid-template-rows: repeat(1, 1fr); 
+    
+}
+.section6{
+border:1px solid black;
+display:grid;
+grid-template-columns:repeat(2, 1fr); 
+grid-template-rows: repeat(3, 1fr); 
+    
+}   
+
+img{
+    justify-self:center;
+    border:1px solid black;
+    max-width: 100%;
+    max-height: auto;
+}
+
+footer{
+
+    text-align: center;
+}
+
+
+/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
+/
+
+
